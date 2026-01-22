@@ -1,0 +1,8 @@
+1. Crie um novo projeto React utilizando TypeScript (pode usar Vite ou Create React App).
+2. O projeto deve ter um componente principal que exiba:
+3. Um título de boas-vindas.
+4. Um Botão que, ao ser clicado, aumenta um número (contador) na tela.
+5. Utilize o hook useState para gerenciar o contador.
+6. (Bônus de UX) Estilize o botão para que ele mude de cor quando o mouse passar por cima (hover).
+7. Suba o projeto no seu GitHub.
+8. Envie o link do repositório no campo abaixo.
