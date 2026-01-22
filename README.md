@@ -20,10 +20,10 @@ Repositório criado para avaliação prática do curso BFD Softexpe - FrontEnd. 
 ## ⚙️ Demonstração
 
 ### Estado Normal
-![Contador Normal](./assets/telainicial.png)
+![Contador Normal](./src/assets/telainicial.png)
 
 ### Contador funcionando + Efeito Hover no Botão
-![Contador com Hover](./assets/contador.png)
+![Contador com Hover](./src/assets/contador.png)
 
 
 ## 🚀 Como rodar o projeto
