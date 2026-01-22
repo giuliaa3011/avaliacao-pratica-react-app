@@ -1,80 +1,32 @@
 # Avaliação Prática de Código - React APP
 
-Repository created for pratical evaluation of BFD Softexpe - FrontEnd Course.
+## Atividade: Contador React + TypeScript 
 
-Repositório criado para avaliação prática do curso BFD Softexpe - FrontEnd.
+Repository created for pratical evaluation of BFD Softexpe - FrontEnd Course. This project was developed as part of a practical activity to learn the fundamentals of React, such as the use of Hooks and component styling.
+
+Repositório criado para avaliação prática do curso BFD Softexpe - FrontEnd. Este projeto foi desenvolvido como parte de uma atividade prática para aprender os fundamentos do React, como o uso de Hooks e estilização de componentes.
+
+## 🛠️ Tecnologias Utilizadas
+* **React** 
+* **TypeScript** 
+* **Vite** 
+* **CSS3** 
+
+## 📋 Requisitos do enunciado 
+- [x] Título de boas-vindas.
+- [x] Contador funcional utilizando o hook 'useState'.
+- [x] Button + efeito de Hover (mudança de cor).
+
+## ⚙️ Demonstração
+
+### Estado Normal
+![Contador Normal](./assets/telainicial.png)
+
+### Contador funcionando + Efeito Hover no Botão
+![Contador com Hover](./assets/contador.png)
 
 
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🚀 Como rodar o projeto
+1. Clone o repositório.
+2. Instale as dependências com `npm install`.
+3. Rode o projeto com `npm run dev`.

@@ -1,9 +1,20 @@
 import { useState } from 'react'
+import './App.css'
 
-function APP() {
+function App() {
+  const [count, setCount] = useState(0)
+
   return (
-    <div>
-      <h1>Olá seja bem-vindo á minha Prática React!</h1>
+    <div className="container">
+      <h1>Olá, seja bem-vindo(a) à minha Prática React!</h1>
+
+      <div className="contador">
+        <p>Contador atual: <strong>{count}</strong></p>
+        
+        <button className="counter-button" onClick={() => setCount(count + 1)}>Aumentar o número</button>
+      </div>
     </div>
   )
 }
+
+export default App
